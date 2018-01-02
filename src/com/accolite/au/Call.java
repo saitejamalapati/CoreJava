@@ -35,6 +35,10 @@ public class Call implements Call_Interface{
 			}
 			else {
 				phn_no = new BigInteger(temp);
+				if(phn_no.compareTo(Mobile.UserMobile) == 0) {
+					System.out.println("Can't call to your own number\n");
+					return;
+				}
 			}
 		} catch (Exception e) {
 			System.out.println("Enter Valid Phone Number\n");
