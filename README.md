@@ -1,4 +1,4 @@
-# CoreJava assignment
+# Core Java Assignment
 This project is about simulating a telephone using java classes.<br><br>
 I created three classes and two interfaces.<br><br>
 ### The three classes are Mobile, Call and Contact.<br>
